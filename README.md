@@ -42,6 +42,8 @@ My path from CSE student at **NIT Srinagar** to cybersecurity engineer. This rep
 | Tool | What it does |
 |------|--------------|
 | [`password_checker.py`](tools/password_checker.py) | Scores a password's strength and explains how to improve it |
+| [`header_checker.py`](tools/header_checker.py) | Grades a website's security headers (HSTS, CSP, clickjacking, cookies, version leaks) from A+ to F |
+| [**log-analyzer**](https://github.com/urstrulyrammukesh/log-analyzer) (own repo) | Finds attacks in web and SSH logs: brute force, scanners, SQLi, XSS, Log4Shell, mapped to MITRE ATT&CK |
 
 ## 📚 Resources I use
 
@@ -56,3 +58,5 @@ My path from CSE student at **NIT Srinagar** to cybersecurity engineer. This rep
 | Date | What I did |
 |------|------------|
 | Nov 2026 | Started this repo and the roadmap |
+| Nov 2026 | Security-audited my own app [Clinora](https://github.com/urstrulyrammukesh/clinora/blob/main/docs/security-audit.md): 9 findings fixed, STRIDE [threat model](https://github.com/urstrulyrammukesh/clinora/blob/main/docs/threat-model.md) |
+| Nov 2026 | Built [log-analyzer](https://github.com/urstrulyrammukesh/log-analyzer) (blue team) and `header_checker.py` |
